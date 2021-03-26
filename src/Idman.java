@@ -93,7 +93,7 @@ public class Idman {
             System.out.println("Yapacak pushup kalmadı...");
 
         }if(pushup_sayisi - sayi < 0) {
-            System.out.println("Hedefleniğiniz pushup sayısını geçtiniz.");
+            System.out.println("Hedeflediğiniz pushup sayısını geçtiniz.");
             pushup_sayisi= 0;
             System.out.println("Kalan pushup: " + burpee_sayisi);
 
@@ -115,13 +115,13 @@ public class Idman {
         }if(situp_sayisi - sayi < 0) {
             System.out.println("Hedefleniğiniz situp sayısını geçtiniz.");
             situp_sayisi= 0;
-            System.out.println("Kalan situp: " + burpee_sayisi);
+            System.out.println("Kalan situp: " + situp_sayisi);
 
         }else {
 
             situp_sayisi -= sayi;
 
-            System.out.println("Kalan situp sayısı: " + burpee_sayisi);
+            System.out.println("Kalan situp sayısı: " + situp_sayisi);
         }
 
 
@@ -136,13 +136,13 @@ public class Idman {
         }if(squat_sayisi - sayi < 0) {
             System.out.println("Hedefleniğiniz squat sayısını geçtiniz.");
             squat_sayisi= 0;
-            System.out.println("Kalan squat: " + burpee_sayisi);
+            System.out.println("Kalan squat: " + squat_sayisi);
 
         }else {
 
             squat_sayisi -= sayi;
 
-            System.out.println("Kalan squat sayısı: " + burpee_sayisi);
+            System.out.println("Kalan squat sayısı: " + squat_sayisi);
         }
 
     }
