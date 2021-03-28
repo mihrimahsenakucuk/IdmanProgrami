@@ -95,13 +95,13 @@ public class Idman {
         }if(pushup_sayisi - sayi < 0) {
             System.out.println("Hedeflediğiniz pushup sayısını geçtiniz.");
             pushup_sayisi= 0;
-            System.out.println("Kalan pushup: " + burpee_sayisi);
+            System.out.println("Kalan pushup: " + pushup_sayisi);
 
         }else {
 
             pushup_sayisi -= sayi;
 
-            System.out.println("Kalan pushup sayısı: " + burpee_sayisi);
+            System.out.println("Kalan pushup sayısı: " + pushup_sayisi);
         }
 
     }
