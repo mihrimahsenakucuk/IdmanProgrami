@@ -51,7 +51,7 @@ public class Main {
         }
 
 
-        System.out.println("İdmanınızı başarıyla bitirdiniz :) ");
+        System.out.println("İdmanınızı başarıyla bitirdiniz  ");
     }
 
 }
